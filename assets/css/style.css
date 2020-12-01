@@ -129,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #menu__toggle {
     opacity: 0;
+    display: none;
   }
   .menu__btn {
     display: flex; 
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 92px;
     cursor: pointer;
     background-color: #ec3fec;
-    top: -2px;
+    
     
     
    } 
@@ -295,4 +296,15 @@ animation: arrow-1 1s linear infinite;
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 15px;
+}
+
+.rec {
+    position: absolute;
+    width: 2.45px;
+    height: 8.21px;
+    left: 719.27px;
+    top: 826.5px;
+
+    background: #000000;
+    border-radius: 19px;
 }
