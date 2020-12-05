@@ -12,10 +12,14 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     max-width: 1440px;
     display: flex;
+    max-height: 169px;
     justify-content: space-between;
     margin: 0;
 }
-
+.collection-container {
+     position: relative;  
+    
+}
 /*----------------background-black------------*/
 
 .background-black {
@@ -24,7 +28,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 900px;
     left: 0px;
     top: 0px;
-    display: inline-block;
+    position: absolute;
+    
+ 
 }
 
 
@@ -33,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     width: 100px;
     max-width: 1440px;
+    position: relative;
 }
 .header__logo{
     max-width: 31px;
@@ -40,11 +47,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     margin-top: 35px;
     margin-left: 54px;
+    letter-spacing: 0.07em;
+    color: #fff;
+   
 }
 .dropbtn {
     font-size: 20px;
     margin-top: 42px;
     margin-left: 302px;
+    color: #fff;
 }
 .checkmark {
     width: 20px;
@@ -117,20 +128,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*-------------Основной блок--------------*/
 
-/*.collection-container {
-    display: flex;
-    
-    justify-content: space-between;
 
-}*/
-.collection {
+.collection-container {
     width: 100%;
     max-width: 1440px;
-    padding-bottom: 30%;
+    height: 562px;
     background: url(../images/pete-bellis-432867-unsplash.svg) no-repeat top;
     background-position: top left;
     margin-left: 186px;
-    
+    position: relative;
 
 }
 
@@ -150,21 +156,18 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 21px;
     color: #000;
     margin-top: 20px;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
     width: 472px;
     height: 127px;
     text-align: left;
     margin-left: 603px;
+    font: 'montserratblack';
 }   
 
 /*--------Button--------*/
 
 .inline {
-    display:inline-block;
     display: inline-block;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
     text-transform: uppercase;
     background-color: #fff;
     pointer-events: auto;
@@ -185,12 +188,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #collection__button-text {
-    width: 172px;
+    width: 180px;
     height: 0px;
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-left: 54px;
+    margin-left: 46px;
     padding: 14px 0 30px 0;
     border: none;
        
@@ -204,13 +207,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 45px;
     height: 7px;
     margin: 0px;
-    padding-left: 19px;
+    padding-left: 8px;
     padding-bottom: 26px;
     display: inline-block;
 }
 .arrow-1 div {
     position: relative;
-    top: 20px;
+    top: 25px;
     width: 43px;
     height: 2px;
     background-color: #000;
@@ -253,19 +256,19 @@ animation: arrow-1 1s linear infinite;
 .image-imageVK,
 .image-imageFcb {
     
-    width: 43px;
-    height: 43px;
-    margin-top: 80px;
-    background-color: black;
+
+    margin-top: 85px;
+    color: #fff;
+    position: relative;
 }
 .image-imageInst {  
     margin-left: 52px;
 }
 .image-imageVK {
-    margin-left: 107px;
+    margin-left: 8px;
 }
 .image-imageFcb {
-    margin-left: 162px;
+    margin-left: 8px;
 }
 
 /*--------Scroll------------*/
