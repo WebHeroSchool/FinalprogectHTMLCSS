@@ -2,53 +2,54 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style1.css">
         <link rel="stylesheet" href="fontsL.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap">
         <title>Loco</title>
     </head>
     <body>
         <header class="header">
+            <div class="background-black"></div>
             <div class="container">
                 <div class="header__inner">
-                 <div class="header__logo">LOCO</div>
-                   <div class="dropbtn">RU</div>
-                     <span class="checkmark">
+                    <div class="header__logo">LOCO</div>
+                    <div class="dropbtn">RU</div>
+                    <span class="checkmark">
                         <div class="checkmark_stem"></div>
                         <div class="checkmark_kick"></div>
-                     </span>
-                </div>
-                <div class="menu">
-                </div> 
+                    </span>
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox"/>
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label> 
+                    </div>
+                </div>  
             </div>
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                  <span></span>
-                </label> 
-            </div>             
+                        
         </header> 
-        <div class="mask"></div>   
-        <div class="collection">
-            <div class="container">
-               <h1 class="collection__title">Новая коллекция</h1>
-               <h2 class="collection__subtitle">Бесплатная доставка включена.
+        <section class="collection">
+            <div class="collection-container">
+                <h1 class="collection__title">Новая коллекция</h1>
+                <h2 class="collection__subtitle">Бесплатная доставка включена.
                     Предложение действует на сайте loco.com и в магазинах до 18.09.2018. 
                    Для получения скидки в магазинах предъявите скриншот данного предложения.
                     В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</h2>
-               <button class="collection__button" type="button" name="button">Читать дальше</button>   
-               <button class="collection__button-text" type="button" name="button">Другие предложения</button> 
-               <div class="arrow-1">
-                <div></div>
-               </div>
-            </div>
-        </div> 
-        <div class="image">
-            <img class="image-imageInst" src="assets/images/INST.svg" alt>
-            <img class="image-imageVK" src="assets/images/VK.svg" alt> 
-            <img class="image-imageFcb" src="assets/images/FB.svg" alt>
-        </div> 
-        <div class="scroll"></div>
-        <div class="rec"></div>   
+                <input type="button" class="inline" id="collection__button" value="Читать дальше">
+                <input type="button" class="inline" id="collection__button-text" value="Другие предложения">    
+            <!--<button class="collection__button" type="button" name="button">Другие предложения</button>   
+                    <button class="collection__button-text" type="button" name="button"></button>-->
+                <div class="arrow-1">
+                    <div></div>
+                </div>
+                <div class="image">
+                    <img class="image-imageInst" src="assets/images/INST.svg" alt>
+                    <img class="image-imageVK" src="assets/images/VK.svg" alt> 
+                    <img class="image-imageFcb" src="assets/images/FB.svg" alt>
+                </div> 
+                <div class="scroll"></div>
+                <div class="rec"></div>
+            </div> 
+        </section>       
     </body>
 </html>
