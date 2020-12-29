@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     margin: 0;
 }
-.collection-container {
+/*.collection-container {
      position: relative;  
     
 }
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #e8e8e8;
 } 
 
-  /* добавляем "гамбургер"*/
+/*----------- добавляем "гамбургер"--------*/
 .menu__btn > span,
 .menu__btn > span::before {
     display: block;
@@ -607,6 +607,14 @@ h2.skincl2 {
 
 /*-----------------------------Для  разрешения 375 и менее ---------------------------*/
 @media screen and (min-width: 0px) and (max-width: 375px) {
+    .pink,
+    .beige {
+        display: none;
+    }
+
+    body {
+        max-width: 100%;
+    }
     .dropbtn {
         display: none;
     }
@@ -621,6 +629,8 @@ h2.skincl2 {
 
     .checkmark {
         margin-top: 614px;
+        z-index: 2;
+        left: 50%;
     }
 
     .collection__subtitle {
@@ -660,9 +670,25 @@ h2.skincl2 {
     }
 
     .collection-container{
-        margin-top: 69px;
-        margin-left: none;
+        margin-top: 22px;
+        margin-left: 0;
         max-width: 375px;
+        background-position: top center;
+        
+    }
+  
+    h1.collection__title{
+        margin: 0;
+        font-size: 50px;
+        line-height: 51px;
+        padding-top: 402px;
     }
     
+    .menu__btn {
+        margin-left: 202px;
+    }
+
+    .header__logo {
+        margin-left: 26px;
+    }
 }
