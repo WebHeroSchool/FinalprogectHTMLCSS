@@ -563,6 +563,7 @@ h2.skincl2 {
     text-align: center;
     
 }
+
 .btn-serene-count {
     width: 100px;
     height: 44px;
@@ -575,6 +576,7 @@ h2.skincl2 {
     border: 1.5px solid #000000;
     
 }
+
 .btn-serene-basket {
     width: 253px;
     height: 44px;
@@ -586,6 +588,7 @@ h2.skincl2 {
     letter-spacing: .07em;
     border: 1.5px solid #000000;
 }
+
 .another-serene {
     text-decoration: none;
     text-transform: uppercase;
@@ -608,10 +611,56 @@ h2.skincl2 {
         display: none;
     }
 
+    .background-black {
+        display: none;
+    }
+
+    .header__logo {
+        color: black;
+    }
+
+    .checkmark {
+        margin-top: 614px;
+    }
+
+    .collection__subtitle {
+        display: none;
+    }
+
+    #collection__button {
+        display: none;
+    }
+
+    #collection__button-text {
+        display: none;
+    }
+
+    .arrow-1 {
+        display: none;
+    }
+
     .image {
         display: none;
     }
+
     .rec {
         display: none;
+    }
+
+    .scroll {
+        display: none;
+    }
+
+    .header {
+        max-height: 69px;
+    }
+
+    .hamburger-menu {
+        max-height: 69px;
+    }
+
+    .collection-container{
+        margin-top: 69px;
+        margin-left: none;
     }
 }
