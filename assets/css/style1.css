@@ -10,9 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------Header---------------*/
 
 .header {
-    max-width: 1440px;
+    max-width: 1440vw;
     display: flex;
-    max-height: 169px;
+    max-height: 169vw;
     justify-content: space-between;
     margin: 0;
 }
@@ -35,13 +35,13 @@ h1, h2, h3, h4, h5, h6 {
 .header__inner {
     display: flex;
     justify-content: space-between;
-    width: 100px;
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1440vw;
     position: relative;
 }
 .header__logo{
-    max-width: 31px;
-    max-height: 25px;
+    max-width: 31vw;
+    max-height: 25vw;
     font-size: 30px;
     margin-top: 35px;
     margin-left: 54px;
@@ -222,28 +222,28 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 .arrow-1 div::after {
-        content: '';
-        position: absolute;
-        width: 10px;
-        height: 2px;
-        top: -3px;
-        right: -3px;
-        background-color: #000;
-        transform: rotate(45deg);
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: -3px;
+    right: -3px;
+    background-color: #000;
+    transform: rotate(45deg);
     }
 .arrow-1 div::before {
-        content: '';
-        position: absolute;
-        width: 10px;
-        height: 2px;
-        top: 3px;
-        right: -3px;
-        background-color: #000000;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
-        transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 3px;
+    right: -3px;
+    background-color: #000000;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
     }
 .arrow-1:hover {
-animation: arrow-1 1s linear infinite;
+    animation: arrow-1 1s linear infinite;
     }
 @keyframes arrow-1 {
     0% {left:0;}
@@ -254,8 +254,6 @@ animation: arrow-1 1s linear infinite;
 .image-imageInst,
 .image-imageVK,
 .image-imageFcb {
-    
-
     margin-top: 85px;
     color: #fff;
     position: relative;
@@ -298,10 +296,10 @@ animation: arrow-1 1s linear infinite;
 
 /*----------------------------PINK-------------------------*/
 .pink {
-    height: 900px;
-    max-height: 900px;
-    width: 1440px;
-    max-width: 1440px;
+    height: 900vw;
+    max-height: 900vw;
+    width: 1440vw;
+    max-width: 1440vw;
 }
 
 .background-pink {
@@ -329,7 +327,7 @@ img.imagecl-small {
 }
 
 .skincl-container {
-    width: 488px;
+    max-width: 488vw;
     height: 556px;
     background-color: #fff;
     margin: 168px 73px 0px 0;
@@ -343,7 +341,7 @@ h1.skincl1 {
     line-height: 41px;
     color: black;
     padding: 45px 93px 0 55px;
-    max-width: 340px;
+    max-width: 340vw;
 }
 
 h2.skincl2 {
@@ -353,7 +351,7 @@ h2.skincl2 {
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.07em;
-    max-width: 220px;
+    max-width: 220vw;
     text-transform: uppercase;
     color: black;
     opacity: .5;
@@ -605,7 +603,7 @@ h2.skincl2 {
 
 /*-----------------------------Для  разрешения 375 и менее ---------------------------*/
 @media screen and (min-width: 0px) and (max-width: 375px) {
-    .pink,
+    
     .beige,
     .dropbtn,
     .background-black,
@@ -625,11 +623,12 @@ h2.skincl2 {
 
     .header__logo {
         color: black;
+        padding-bottom: 2vw;
     }
 
     .header {
-        max-height: 69px;
-        max-width: 375px;
+        max-height: 69vw;
+        max-width: 375vw;
     }
 
     .hamburger-menu {
@@ -640,15 +639,19 @@ h2.skincl2 {
     .collection-container{
         margin-left: 0;
         max-width: 375px;
-        background-position: top center;
-        background: url(../images/pete-bellis-432867-unsplash.svg);
+        background: url(../images/с\ макета\ pete-bellis-432867-unsplash.jpg);
+        background-position: -17vw -27vW;
+        background-size: 138vw 212vw;
+        background-repeat: no-repeat;
+        height: 526px;
+        
     }
   
     h1.collection__title{
         margin: 0 0 0 26px;
         font-size: 50px;
         line-height: 51px;
-        padding-top: 402px;
+        padding-top: 363px;
     }
     
     .menu__btn {
@@ -661,6 +664,7 @@ h2.skincl2 {
 
     .header__logo {
         margin-left: 26px;
+        margin-top: 0;
     }
 
     .checkmark {
@@ -672,32 +676,23 @@ h2.skincl2 {
         height: 20px;
         margin-top: 6px;
         margin-left: 7px;
-        background-color: black;
-        
-    }
-    .checkmark_stem375 {
-        width:2px;
-        height:8px;
-        background-color:#fff;
-        margin-left:10px;
-        margin-top:6px;
-        margin-right: 5px;
-        -ms-transform: rotate(45deg); /* IE 9 */
-        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-        transform: rotate(45deg);
+             
     }
     
-    .checkmark_kick375 {
-        width:2px;
-        height:8px;
-        background-color:#fff;
-        margin-left: 5px;
-        margin-top: -8px;
-        -ms-transform: rotate(-45deg); /* IE 9 */
-        -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-        transform: rotate(-45deg);
-    }
-
+    .checkmark_stem375 {
+        width: 20px;
+        height: 20px;
+        margin-left: 0px;
+        margin-top: 12px;
+        margin-right: 0px;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        color: black;
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
+        }
+    
     .container{
         display: flex;
         justify-content: space-between;
@@ -708,27 +703,112 @@ h2.skincl2 {
         justify-content: space-between;
         width: 375px;
         max-width: 375px;
-        text-align: center;
+        align-items: center;
     }
 
-    .menu__btn > span,
-    .menu__btn > span::before {
-    display: block;
-    position: absolute;
-    width: 27px;
-    height: 3px;
-    background-color: black;
-       
-      
-}
-    .menu__btn > span {
-    content: '';
-    top: 39px; 
-    margin-left: 23px;
+    .check375{
+        display: flex;
+        justify-content: center;
+    }
+
+    .checkmark_stem375 {
+        width: 20px;
+        height: 20px;
+        margin-left: 0px;
+        margin-top: 13px;
+        margin-right: 0px;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
+    }
     
-}
-    .menu__btn > span::before {
-    content: '';
-    top: -10px;
-}
+    .imagecl-small,
+    .pinkbg {
+        display: none;
+    }
+    .pink-container {
+        flex-direction: column;
+        background: url("../images/pink bg.svg");
+        background-size: 79vw 86vw;
+        background-position: 11vw -13vw;
+        background-repeat: no-repeat;
+        padding-top: 26vw;
+    }
+    .skincl-container {
+        max-width: 320vw;
+        margin-left: 29px;
+        max-height: 281vw;
+        height: 281px;
+    }
+    h1.skincl1{
+        font-size: 20px;
+        padding: 25px 0 1px 29px;
+        line-height: 0;
+    }
+
+    h2.skincl2 {
+        font-size: 10px;
+        line-height: 10vw;
+        padding: 0 0 0 31px;
+    }
+
+    p.skincl3 {
+        font-size: 9px;
+        line-height: 12px;
+        padding: 0px 0 0 31px;
+        max-width: 252vw;
+        max-height: 84vw;
+        width: 252px;
+        height: 84px;
+    }
+    
+    .price {
+        font-size: 20px;
+    }
+
+    #color-gray,
+    #color-pink,
+    #color-violet,
+    #color-green {
+        width: 23px;
+        height: 23px;
+    }
+
+    #color-gray {
+        margin: 12px 12px 0 34px;
+    }
+
+    #color-pink,
+    #color-green {
+        margin: 12px 12px 0 0;
+    }
+
+    #color-violet {
+        margin: 12px 12px 0 0;
+    }
+
+    .btn-count,
+    .another,
+    .arrow-pink {
+        display: none;
+    }
+
+    .input-number-container {
+        margin: 10px 26px 31px;
+        display: flex;
+    }
+
+    .btn-basket {
+        width: 260px;
+        height: 37px;
+        padding-left: 9px;
+        margin-left: 4px;
+        margin-top: 2px;
+        padding-top: 4px;
+    }
+
+
+
 }
