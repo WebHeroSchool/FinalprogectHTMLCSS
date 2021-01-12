@@ -174,6 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------Button--------*/
 
 .btn-container {
+    font-family: 'Montserrat';
     display: inline-flex;
     color: black;
     max-width: 500px;
@@ -184,21 +185,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .collection__button {
+    font-family: 'Montserrat';
     width: 161px;
     height: 31px;
     font-size: 13px;
     font-weight: 500;
-    border: 1.5px solid #000000;
-    letter-spacing: .07em;
+    border: 1px solid;
     padding: 5px 0 2px 39px;
     text-transform: uppercase;
     background-color: #fff;
     pointer-events: auto;
     margin-right: 43px;
+    
+}
 
+.collection__button:hover {
+    background: linear-gradient(to bottom, #ecd6d6, #d1abab);
+    transition: .3s ease-in-out;
 }
 
 .collection__button-text {
+    font-family: 'Montserrat';
     width: 180px;
     height: 0px;
     font-size: 13px;
@@ -206,10 +213,12 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     padding: 20px 0 28px 0;
     border: none;
-    letter-spacing: .07em;
     background-color: #fff;
     pointer-events: auto;
-   
+}
+
+.collection__button-text:hover {
+    color: #F29F9F;
 }
 
 /*-----Arrow-------*/
@@ -255,7 +264,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 .arrow-1:hover {
     animation: arrow-1 1s linear infinite;
-    }
+
+}
+
 @keyframes arrow-1 {
     0% {left:0;}
     50% {left:10px;}
@@ -431,7 +442,7 @@ h2.skincl2 {
 }
 
 .price {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -476,6 +487,11 @@ h2.skincl2 {
     border: 1.5px solid #000000;
 }
 
+.btn-basket:hover {
+    background: linear-gradient(to bottom, #ecd6d6, #d1abab);
+    transition: .3s ease-in-out;
+}
+
 .another {
     text-decoration: none;
     text-transform: uppercase;
@@ -489,6 +505,11 @@ h2.skincl2 {
     background-color: transparent;
     padding-right: 80px;
     letter-spacing: .05em;
+}
+
+.another:hover {
+    text-decoration: underline;
+    color: #F29F9F;
 }
 
 /*--------------BEIGE-------------------------*/
@@ -591,6 +612,11 @@ h2.skincl2 {
     border: 1.5px solid #000000;
 }
 
+.btn-serene-basket:hover {
+    background: linear-gradient(to bottom, #ecd6d6, #d1abab);
+    transition: .3s ease-in-out;
+}
+
 .another-serene {
     text-decoration: none;
     text-transform: uppercase;
@@ -603,9 +629,14 @@ h2.skincl2 {
     width: 238px;
     height: 58px;
     background-color: transparent;
-    
     letter-spacing: .05em;
 }
+
+.another-serene:hover {
+    text-decoration: underline;
+    color: #f89494;
+}
+/*--------------------Для разрешения 1441 и более----------------*/
 
 @media (min-width: 1441px) {
     .wrap {
