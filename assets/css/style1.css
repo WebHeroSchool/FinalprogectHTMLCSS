@@ -184,7 +184,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .collection__button {
-    font-family: 'montserratmedium';
     width: 161px;
     height: 31px;
     font-size: 13px;
@@ -200,7 +199,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .collection__button-text {
-    font-family: 'montserratmedium';
     width: 180px;
     height: 0px;
     font-size: 13px;
@@ -208,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     padding: 20px 0 28px 0;
     border: none;
-    letter-spacing: .08em;
+    letter-spacing: .07em;
     background-color: #fff;
     pointer-events: auto;
    
@@ -607,6 +605,23 @@ h2.skincl2 {
     background-color: transparent;
     
     letter-spacing: .05em;
+}
+
+@media (min-width: 1441px) {
+    .wrap {
+        margin: 0px auto;
+        max-width: 1440px;
+        max-height: 900px;
+        width: 100%;
+        height: 100vh;
+    }
+    body {
+        margin: 0px auto;
+    }
+
+    .header {
+        margin: 0px auto;
+    }
 }
 
 /*------------------------------Для разрешения max 1439 min 1200--------------------------*/
@@ -1121,7 +1136,7 @@ h2.skincl2 {
 
     .collection-container {
         background-position: 3vw 12vh;
-        background-size: 47vw 56vh;
+        background-size: contain;
         max-width: 539px;
     }    
 
@@ -1129,20 +1144,20 @@ h2.skincl2 {
         font-size: 53px;
         line-height: 51px;
         margin-top: 256px;
-        margin-left: 530px;
+        margin-left: 561px;
         padding-right: 20px;
     }
 
     .collection__subtitle {
         font-size: 14px;
         line-height: 20px;
-        margin-left: 530px;
+        margin-left: 561px;
         width: 323px;
     }
     .btn-container {
         flex-direction: column;
         margin-bottom: 66px;
-        margin-left: 530px;
+        margin-left: 561px;
         font-size: 13px;
         margin-bottom: 42px;
     }
@@ -1331,7 +1346,7 @@ h2.skincl2 {
 
     .collection-container {
         background-position: 0vw 8vh;
-        background-size: 100vw 79vh;
+        background-size: cover;
     
     }    
 
@@ -1840,7 +1855,7 @@ h2.skincl2 {
     .collection-container {
         background: url(../images/pete-bellis-432867-unsplash.svg) no-repeat;
         background-position: -25vw 6vh;
-        background-size: 142vw 86vh;
+        background-size: cover;
     }    
 
     .collection__title {
@@ -1992,10 +2007,10 @@ h2.skincl2 {
         margin-top: 36px;
     } 
     .serene-container {
-        margin-left: 86px;
+        margin-left: 77px;
         margin-right: 0px;
         margin-top: 288px;
-        width: 313px;
+        width: 300px;
         height: 252px;
     }
 
@@ -2073,11 +2088,12 @@ h2.skincl2 {
     body {
         max-width: 100%;
         max-height: 1861px;
+        min-width: 375px;
     }
 
     .header {
-        max-height: 69px;
-        max-width: 375px;
+        min-height: 69px;
+        min-width: 375px;
         background: none;
     }
     
@@ -2129,10 +2145,10 @@ h2.skincl2 {
 
     .collection-container{
         margin-left: 0;
-        max-width: 375px;
+        min-width: 375px;
         background: url(../images/m_с\ макета\ pete-bellis-432867-unsplash.png);
         background-position: -14vw 7vh;
-        background-size: 133vw 57vh;
+        background-size: cover;
         background-repeat: no-repeat;
         height: 597px;
     }
@@ -2147,7 +2163,7 @@ h2.skincl2 {
     .btn-container {
         margin-left: 0;
         margin-bottom: 0;
-        max-width: 375px;
+        min-width: 375px;
         display: flex;
         justify-content: center;
     }
