@@ -550,12 +550,13 @@ h2.skincl2 {
 /*----------------SERENE------------------------*/
 
 .serene-container {
-    margin-bottom: 26.5%;
+    margin-bottom: 294px;
     width: 475px;
     height: 351px;
     margin-left: 817px;
     margin-top: 255px;
     background: #FAE8E4;
+    background-size: cover;
     z-index: 5;
     flex-direction: column;
 }
@@ -1794,12 +1795,14 @@ h2.skincl2 {
 
     .img-backgr-rec {
         margin-left: -93px;
+        max-height: 834px;
     }
 
     .img-backgr-beige {
         margin-left: 1%;
         width: 88%;
         margin-top: 36px;
+
     } 
     .serene-container {
         margin-left: 86px;
@@ -2063,6 +2066,7 @@ h2.skincl2 {
 
     .img-backgr-rec {
         margin-left: -93px;
+        max-height: 834px;
     }
 
     .img-backgr-beige {
