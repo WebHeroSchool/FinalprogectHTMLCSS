@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pink-container {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: 
         url(../images/pink\ bg.svg) 16vw 2vh no-repeat,
@@ -534,7 +534,7 @@ h2.skincl2 {
 .img-backgr-rec {
     margin-left: 378px;
     width: 93px;
-  /*  height: 900px;*/
+    height: 900px;
     z-index: 1;
     position: absolute;
 }
