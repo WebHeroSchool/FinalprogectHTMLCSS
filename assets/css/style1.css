@@ -7,6 +7,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.wrap {
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    max-height: 900px;
+    margin: 0 auto;
+}
+
 .container {
     width: 100%;
     max-width: 1440px;
@@ -117,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     content: '';
     top: 49px; 
     margin-left: 28px;
-}
+}ы
 
 .menu__btn > span::before {
     content: '';
@@ -2178,7 +2186,7 @@ h2.skincl2 {
         margin-left: 0;
         min-width: 375px;
         background: url(../images/m_с\ макета\ pete-bellis-432867-unsplash.png);
-        background-position: -14vw 6vh;
+        background-position: -25vw 6vh;
         background-size: cover;
         background-repeat: no-repeat;
         height: 597px;
