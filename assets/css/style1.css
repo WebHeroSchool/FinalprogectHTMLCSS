@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.skincl1 {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -365,7 +365,7 @@ h1.skincl1 {
 }
 
 h2.skincl2 {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -379,7 +379,7 @@ h2.skincl2 {
 }
 
 .skincl3 {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1625,9 +1625,9 @@ h2.skincl2 {
     }
 
     .collection-container {
-        background: url(../images/pete-bellis-432867-unsplash.svg) no-repeat;
-        background-position: -12vw 6vh;
-        background-size: 126vw 86vh;
+        background: url(../images/pete-bellis-432867-unsplash.png) no-repeat;
+        background-position: -30vw 6vh;
+        background-size: cover;
     }    
 
     .collection__title {
@@ -2178,7 +2178,7 @@ h2.skincl2 {
         margin-left: 0;
         min-width: 375px;
         background: url(../images/m_с\ макета\ pete-bellis-432867-unsplash.png);
-        background-position: -14vw 7vh;
+        background-position: -14vw 6vh;
         background-size: cover;
         background-repeat: no-repeat;
         height: 597px;
